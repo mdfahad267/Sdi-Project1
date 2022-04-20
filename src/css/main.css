@@ -1,0 +1,581 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+
+:root{--font-family: 'Poppins', sans-serif;--primary-color: #daac00;--default-color: #fcc302;--first-font-color: #ffffff;    --second-font-color: #313243;--btn-color: #00bec9;}
+
+.container{max-width: 1175px;width: 100%;margin: 0px auto;padding: 0px 20px 0px 20px;}
+
+/* This is Header//CSS */
+/* nav//Content */
+nav.nav-bar {background: var(--primary-color);}
+
+.nav-inner {display: flex;align-items: center;justify-content: space-between;padding: 33px 0px 32px 0px;}
+
+ul.nav-list {display: flex;}
+
+ul.nav-list li {list-style: none;}
+
+ul.nav-list li a {font-size: 29px;text-decoration: none;text-transform: capitalize;font-family: var(--font-family);font-weight: 500;color: var(--first-font-color);margin: 0px 42px 0px 0px;}
+
+ul.nav-list li:nth-child(4) a{margin-right: 75px;} 
+
+ul#nav-item li a:hover {color: #313243;transition: 0.5s;}
+
+ul.nav-list li.active a{color: #313243;}
+
+.search-item {display: flex;align-items: center;margin-left: -75px;}
+
+.search-item input {border: none;background: var(--default-color);font-family: var(--font-family);font-weight: 400;font-size: 20px;padding: 12px 5px 12px 20px;color: var(--first-font-color)!important; width: 203px;}
+
+.search-item button {background: var(--btn-color);border: none;padding: 14px 24px 14px 24px;cursor: pointer;}
+
+#humbugger{display: none;cursor: pointer;}
+
+/* header//Content */
+header.header-content {background: var(--default-color);}
+
+.header-inner {display: flex;justify-content: space-between;align-items: center;padding: 191px 0px 96px 0px;}
+
+.header-left h1 {font-size: 66.76px;font-family: var(--font-family);font-weight: 500;color: var(--first-font-color);line-height: 75px;}
+
+.header-left p {font-size: 29.17px;font-family: var(--font-family);font-weight: 400;color: var(--first-font-color);line-height: 35px;margin: 52px 0px 0px 0px;}
+
+.headerBtn a {text-decoration: none;color: var(--first-font-color);font-family: var(--font-family);font-weight: 500;padding: 20px 33px 20px 33px;display: inline-block;border-radius: 5px;text-transform: capitalize;margin-top: 50px;}
+
+.headerBtn a#hdr-btn-1 {background: var(--btn-color);transition: all 0.5s;}
+
+a#hdr-btn-1:hover {background: var(--second-font-color);}
+
+.headerBtn a#hdr-btn-2 {border: 2px solid #FFF;padding: 15px 33px 16px 33px;margin-left: 35px;transition: all 0.5s;}
+
+a#hdr-btn-2:hover{background-color: var(--btn-color);border: none;padding: 20px 33px 20px 33px;}
+
+/* This is Animals//Section-1//Css */
+
+.animals-1-right {position: relative;}
+
+.animals-1-overlay::after{content: "";width: 100%;height: 100%;background: rgb(252 195 2 / 62%);position: absolute;top: 0px;left: 0px;}
+
+.animals-1-overlay::before{z-index: -1;content: "";width: 252px;height: 205px;background: var(--default-color);position: absolute;top: 307px;left: -35px;}
+
+.animals-inner-1 {display: flex;justify-content: space-between;align-items: center;padding: 140px 0px;}
+
+.animals-1-left h2 {font-size: 50px;font-family: var(--font-family);font-weight: 500;color: var(--second-font-color);line-height: 55px;}
+
+.animals-1-left p {font-size: 29px;font-family: var(--font-family);font-weight: 400;line-height: 33px;padding: 53px 0px 52px 0px;}
+
+.animals-1-btn a {text-decoration: none;font-size: 20.83px;font-family: var(--font-family);font-weight: 500;text-transform: capitalize;display: inline-block;background: var(--default-color);color: var(--first-font-color);padding: 15px 33px 15px 33px;border-radius: 7px;transition: all 0.7s;}
+
+.animals-1-btn a:hover{background-color: var(--first-font-color);color: var(--second-font-color);border: 1px solid var(--second-font-color);}
+
+.animals-1-right figure img {width: 505px;height: 482px;}
+
+.animals-1-right i {position: absolute;top: 158px;left: 178px;transform: translate(50%, 50%);font-size: 30px;background: var(--first-font-color);padding: 20px;border-radius: 40px;cursor: pointer;z-index: 1;}
+
+/* Dental//Css */
+
+section.dental {background: var(--default-color);}
+
+.dental-inner {padding: 99px 0px 99px 0px;}
+
+.title-top {text-align: center;}
+
+.title-top h3 {font-size: 75px;font-family: var(--font-family);font-weight: 700;color: var(--first-font-color);}
+
+.title-top p {font-size: 33.33px;font-family: var(--font-family);font-weight: 400;color: var(--first-font-color);line-height: 35px;}
+
+.dental-bottom {display: flex;justify-content: space-between;text-align: center;margin: 100px 0px 0px 0px;}
+
+.dental-card figure img {width: 342px;height: 354px;}
+
+.dental-card h2 {font-size: 37.5px;font-family: var(--font-family);font-weight: 500;color: var(--first-font-color);padding: 46px 0px 0px 0px;}
+
+.dental-card p {font-size: 25px;font-family: var(--font-family);font-weight: 400;color: var(--first-font-color);line-height: 30px;}
+
+/* This is Animals//Section-2//Css */
+
+#animals-2{text-align: end;}
+
+#animals-overlay-2::before{z-index: -1;content: "";width: 252px;height: 205px;background: var(--default-color);position: absolute;top: 307px;left: 300px;}
+
+div.animals-1-overlay i {color: var(--default-color);}
+
+/* Second//Dental Card */
+
+.price h4 {font-size: 42px;color: var(--first-font-color);font-family: var(--font-family);font-weight: 500;padding: 20px 0px 15px 0px;position: relative;}
+
+.price h4 span{margin-right: 25px;}
+
+.price h4 span::after{content: "";width: 125px;height: 5px;position: absolute;background-color: var(--first-font-color);top: 47px;left: 43px;}
+
+.card-btn a {text-decoration: none;font-size: 25px;text-transform: capitalize;font-family: var(--font-family);font-weight: 600;color: var(--first-font-color);padding: 15px 60px 15px 60px;background: var(--btn-color);display: inline-block;border-radius: 50px;transition: all 0.5s;}
+
+.card-btn a:hover{background-color: var(--second-font-color);}
+
+/* Vetcare//Team//Css */
+
+.team-inner {padding: 148px 0px 140px 0px;}
+
+.top-title {text-align: center;}
+
+.top-title h2 {font-size: 75px;font-family: var(--font-family);font-weight: 700;color: var(--second-font-color);line-height: 135px;}
+
+.top-title p {font-size: 33.33px;font-family: var(--font-family);font-weight: 400;line-height: 40px;}
+
+.team-card {display: flex;justify-content: space-between;text-align: center;margin: 98px 0px 0px 0px;}
+
+.card-item figure img {width: 360px;height: 352px;}
+
+.card-item h3 {font-size: 29px;font-family: var(--font-family);font-weight: 700;line-height: 30px;padding: 30px 0px 0px 0px;}
+
+.card-item p {font-size: 25px;font-family: var(--font-family);font-weight: 400;padding: 0px 0px 20px 0px;}
+
+.team-icon i {font-size: 24px;width: 45px;height: 45px;margin-right: 10px;background: var(--primary-color);border-radius: 50%;color: var(--first-font-color);cursor: pointer;display: flex;justify-content: space-around; align-items: center;}
+
+.team-icon a {text-decoration: none;display: inline-block;}
+
+.team-icon i:hover{transform: rotate(360deg);transition: 0.7s;background-color: var(--second-font-color);}
+
+/* Counter//Css */
+
+#counter{background-image: url("../img/Counter-bg-img.png");background-repeat: no-repeat;background-position: center top;background-size: cover;position: relative;}
+
+.counter-overlay::before{content: "";position: absolute;width: 100%;height: 100%;background-color: rgb(218 172 0 / 82%);top: 0px;left: 0px;}
+
+.counter-inner {display: flex;justify-content: space-between;padding: 146px 0px 142px 0px;}
+
+.counter-card {text-align: center;z-index: 1;}
+
+.count-value {font-size: 42px;font-family: var(--font-family);font-weight: 500;color: var(--first-font-color);line-height: 60px;padding: 55px 0px 0px 0px;}
+
+.counter-card h3 {font-size: 37px;font-family: var(--font-family);font-weight: 700;color: var(--first-font-color);}
+
+.operator{font-size: 42px;font-family: var(--font-family);color: var(--first-font-color);}
+
+/* Post//Content//Css */
+
+.post-inner {padding: 140px 0px 140px 0px;}
+
+.post-item {display: grid;grid-template-columns: repeat(3,1fr);  margin: 100px 0px 0px 0px;}
+
+.post-card figure img {width: 360px;height: 353px;}
+
+.post-card {margin: 0px 20px 0px 0px;}
+
+div#post-shadow {box-shadow: 1px 3px 10px 0px;}
+
+div#content-info {border-left: 2px solid #d6d6d6;border-bottom: 2px solid #d6d6d6;border-right: 2px solid #d6d6d6;}
+
+.post-content h3 {font-size: 25px;font-family: var(--font-family);font-weight: 600;line-height: 30px;color: var(--second-font-color);padding: 15px 0px  0px 0px;}
+
+.post-content h5 {font-size: 16.67px;font-family: var(--font-family);font-weight: 400;color: var(--btn-color);line-height: 30px;}
+
+.post-content {padding: 15px;}
+
+.post-content p {font-size: 16.67px;font-family: var(--font-family);font-weight: 400;color: var(--second-font-color);line-height: 20px;padding: 15px 0px 0px 0px;}
+
+.post-content div a {text-decoration: none;font-size: 20.83px;font-family: var(--font-family);font-weight: 500;color: var(--btn-color);padding: 15px 0px 0px 0px;display: inline-block;}
+
+/* Footer//Css */
+
+footer#footer {background: #343434;color: var(--first-font-color);}
+
+.footer-inner {padding: 153px 0px 190px 0px;}
+
+.footer-item {display: flex;justify-content: space-between;}
+
+.footer-content h2 {font-size: 37px;text-transform: capitalize;font-family: var(--font-family);font-weight: 500;}
+
+ul.list {padding: 20px 0px 0px 0px;}
+
+ul.list li {list-style: none;padding: 20px 0px 0px 0px;}
+
+ul.list li a {text-decoration: none;font-size: 25px;font-family: var(--font-family);font-weight: 400;color: var(--first-font-color);line-height: 40px;transition: all 0.5s;}
+
+ul.list li a:hover{color: var(--btn-color);text-decoration: underline;}
+
+.footer-content-end h2 {font-size: 37px;font-family: var(--font-family);font-weight: 500;text-transform: capitalize;}
+
+.footer-content-end {text-align: end;}
+
+.footer-content-end p {font-size: 25px;font-family: var(--font-family);font-weight: 400;}
+
+.search-btn input {border: none;padding: 30px 40px 30px 40px;background: var(--default-color);color: var(--first-font-color);}
+
+.search-btn {display: flex;justify-content: end;align-items: center;padding: 52px 0px 48px 0px;}
+
+button#footer-btn {padding: 20px 40px 20px 40px;background: var(--btn-color);cursor: pointer;}
+
+button#footer-btn img {width: 31px;}
+
+i#fotr-icon {background: var(--first-font-color);color: var(--second-font-color);transition: all 0.5s;}
+
+i#fotr-icon:hover{background: var(--primary-color);color: var(--first-font-color);}
+
+
+/* 1150px//Responsive */
+@media only screen and (max-width: 1150px){
+
+    /* Nav//bar Responsive//Css  */
+    nav.nav-bar{border-bottom: 1px solid #ffffff63;}
+
+    ul.nav-list{position: absolute;display: block;top: -486px;left: 0px;width: 100%;background: var(--primary-color);margin: 126px 0px 0px 0px;opacity: 0;visibility: hidden;transition: 0.9s;}
+
+    ul.nav-list li{padding: 20px 0px 20px 20px;border-bottom: 1px solid #ffffff63;}
+
+    ul.nav-list li a{width: 100%;display: block;}
+
+    .open{opacity: 1!important; visibility: visible!important;top: 0px!important;}
+
+    #humbugger i{font-size: 40px;color: var(--first-font-color);}
+
+    #humbugger{display: block;}
+
+    #icon-2{display: none;}
+
+    .close #icon-1{display: none;}
+
+    .close #icon-2{display: block;}
+ 
+    .search-item{display: none;}
+
+    /* Header//Responsive//Css */
+
+    .header-left{text-align: center;padding: 0px 20px 0px 20px;}
+
+    .header-right{display: none;}
+
+    /* Animals//Section-1//Responsive//Css */
+    #animals-title{padding: 0px 50px 0px 0px;}
+
+    .animals-1-right figure img {width: 440px;height: 400px;}
+
+    .animals-1-overlay::before{top: 225px;}
+
+    .animals-1-overlay::after{width: 440px;height: 400px;}
+
+    /* Dental//Responsive//Css */
+    .dental-bottom{display: grid;grid-template-columns: repeat(2,1fr);grid-gap: 50px;}
+
+    .dental-card:nth-child(3){padding: 60px 0px 0px 0px;}
+
+    /* Animals//Section-2//Responsive//Css */
+    #animals-overlay-2::before{top: 225px;left: 225px;}
+
+    #animals-2{margin: 0px 0px 0px 65px;display: inline-block;}
+
+    /* Dental Card//Responsive//Css */
+    .price h4 span::after{left: 140px;}
+
+    /* Vetcare//Team//Responsive */
+    .team-card{display: grid;grid-template-columns: repeat(2,1fr);}
+
+    .card-item:nth-child(3){margin: 98px 0px 0px 0px;}
+
+    /* Counter//Responsive//Css */
+    .counter-inner{justify-content: space-around;}
+
+    .counter-card h3{font-size: 30px;}
+
+    .count-value{font-size: 30px;}
+
+    .operator{font-size: 30px;}
+
+    /* Post//Responsive//Css */
+    .post-item{grid-template-columns: repeat(2,1fr)}
+
+    .post-card figure img {max-width: 526px;width: 100%;height: 353px;}
+
+    .post-card:nth-child(3){margin: 100px 0px 0px 0px;}
+}
+
+
+/* 1024px//Responsive */
+@media only screen and (max-width: 1024px){
+
+    /* Nav//bar */
+    ul.nav-list li a{font-size: 25px;}
+
+    /* Header//Content */
+    .header-left h1{font-size: 55px;line-height: 66px;}
+
+    .header-left p{font-size: 25px;}
+
+    /* Animals//Section-1 */
+    .animals-1-left h2{font-size: 40px;line-height: 45px;}
+
+    .animals-1-left p{font-size: 24px;}
+
+    .animals-1-right figure img {width: 400px;height: 360px;}
+
+    .animals-1-overlay::before{top: 190px;}
+
+    .animals-1-overlay::after{width: 400px;height: 360px;}
+
+    .animals-1-right i{top: 120px;left: 125px;transform: translate(50%, 50%);font-size: 25px;}
+
+    /* Dental//CSS */
+    .title-top h3{font-size: 65px;}
+
+    .title-top p{font-size: 26px;}
+
+    .dental-card h2{font-size: 32px;}
+
+    .dental-card p{font-size: 21px;}
+
+
+    /* Animals//Section-2 */
+    #animals-overlay-2::before{top: 190px;left: 190px;}
+
+    /* Second//Dental Card */
+    .price h4 span::after{left: 105px;}
+
+    /* Vetcare//Team */
+    .top-title h2{font-size: 65px;}
+
+    .top-title p{font-size: 26px;}
+
+    .card-item h3{font-size: 25px;}
+
+    .card-item p{font-size: 22px;}
+    
+    .team-icon i{font-size: 20px;width: 40px;height: 40px;}
+
+
+    /* Footer//Css */
+    .footer-item {display: grid;grid-template-columns: repeat(2,1fr);text-align: center;}
+
+    .footer-content-end{padding-top: 90px;}
+}
+
+
+/* 882px//Responsive */
+@media only screen and (max-width: 882px){
+    /* Animals//Section-1 */
+    .animals-inner-1{display: grid;grid-template-columns: repeat(1,1fr);text-align: center;padding: 100px 0px 100px 0px;}
+
+    .animals-1-left p{padding: 10px 0px 10px 0px;}
+    
+    .animals-1-right {display: none;}
+
+    /* Animals//Section-2 */
+    #animals-2{text-align: center;}
+
+    /* Second//Dental Card */
+    .price h4 span::after{left: 70px;}
+}
+
+/* 768px//Responsive */
+
+@media only screen and (max-width: 768px) {
+
+    /* Dental//Css */
+    .dental-bottom{display: grid;grid-template-columns: repeat(1,1fr);grid-gap: 50px;}
+
+    .dental-card:nth-child(3){padding: 0px;}
+
+    /* Second//Dental Card */
+    .price h4 span::after{left: auto;}
+
+    /* Vetcare//Team */
+    .team-card{grid-template-columns: repeat(1,1fr);grid-gap: 50px;}
+
+    .card-item:nth-child(3){margin: 0px;}
+
+    /* Counter//Css */
+    .counter-inner{display: grid;grid-template-columns: repeat(1,1fr);grid-gap: 50px;text-align: center;}
+
+    /* Post//Content */
+    .post-item{grid-template-columns: repeat(1,1fr);grid-gap: 50px;text-align: center;padding: 0px 90px 0px 90px;}
+
+    .post-card:nth-child(3){margin: 0px;padding: 10px;}
+
+    /* Footer//Css */
+    .footer-item {grid-template-columns: repeat(1,1fr);grid-gap: 50px;text-align: center;}
+
+    .footer-content-end{padding-top: 0px;text-align: center;}
+
+    .search-btn{justify-content: center;}
+    
+}
+
+
+/* 576px//Responsive */
+
+@media only screen and (max-width: 576px){
+
+    /* Nav//Bar */
+    .nav-inner{padding: 33px 20px 32px 20px;}
+
+    .logo img{width: 130px;height: auto;}
+
+    ul.nav-list{margin: 104px 0px 0px 0px;}
+
+    ul.nav-list li a {font-size: 18px;}
+
+    #humbugger i{font-size: 32px;}
+
+    /* header//Content */
+    .header-left h1{font-size: 40px;line-height: 45px;}
+
+    .header-left p{font-size: 20px;margin: 15px 0px 0px 0px;line-height: 30px;}
+
+    .headerBtn a#hdr-btn-1{padding: 15px 27px 15px 27px;}
+
+    .headerBtn a#hdr-btn-2{padding: 13px 27px 14px 27px;margin-left: 20px;}
+
+    /* Animals//Section-1 */
+    .animals-inner-1{text-align: start;}
+
+    .animals-1-left h2{font-size: 33px;line-height: 40px;}
+
+    .animals-1-left p{font-size: 20px;line-height: 30px;padding: 15px 0px 15px 0px;}
+
+    .animals-1-btn a{padding: 13px 27px 13px 27px;font-size: 18px;}
+
+    /* Dental//Css */
+    .title-top h3{font-size: 50px;}
+
+    .title-top p{font-size: 20px;}
+
+    .dental-bottom{margin: 50px 0px 0px 0px;}
+
+    .dental-card figure img{max-width: 420px;width: 100%;height: 354px;}
+
+    .dental-card h2{font-size: 28px;padding: 20px 0px 0px 0px;}
+
+    .dental-card p{font-size: 18px;}
+
+    /* Animals//Section-2 */
+    #animals-2{text-align: end;}
+
+    /* Second//Dental Card  */
+    .price h4{font-size: 30px;}
+
+    .price h4 span{margin-right: 0px;}
+
+    .price h4 span::after{width: 77px;height: 4px;top: 41px;left: auto;}
+
+    .card-btn a{font-size: 18px;padding: 15px 50px 15px 50px;}
+
+    /* Vetcare//Team */
+    .team-inner{padding: 50px 0px 140px 0px;}
+
+    .top-title h2{font-size: 45px;line-height: 85px;}
+
+    .top-title p{font-size: 20px;line-height: 32px;}
+
+    .card-item h3{font-size: 23px;}
+
+    .card-item p{font-size: 18px;}
+
+    /* Post//Content */
+    .post-inner{padding: 50px 0px 140px 0px;}
+
+    .post-item{padding: 0px;}
+}
+
+
+/* 475px//Responsive */
+
+@media only screen and (max-width: 475px){
+
+    /* Header */
+    .header-left h1{font-size: 35px;}
+
+    .header-left p{font-size: 18px;}
+
+    .headerBtn a{margin-top: 30px;}
+
+    /* Animals//Section-1 */
+    .animals-1-left h2{font-size: 30px;}
+
+    .animals-1-left p{font-size: 18px;line-height: 26px;}
+
+    .animals-1-btn a{font-size: 16px;}
+
+    /* Dental//Css */
+    .title-top p{font-size: 18px;line-height: 28px;}
+
+    /* Vetcare//Team */
+    .top-title p{font-size: 18px;line-height: 28px;}
+}
+
+
+
+/* 420px//Responsive */
+
+@media only screen and (max-width: 420px){
+
+    /* Header */
+    .header-left h1{font-size: 30px;line-height: 40px;}
+
+    .header-left p{font-size: 16px;line-height: 28px;}
+
+    .headerBtn a{margin-top: 30px;}
+
+    /* Animals//Section-1 */
+    .animals-1-left h2{font-size: 26px;line-height: 35px;}
+
+    .animals-1-left p{font-size: 16px;line-height: 24px;}
+
+    .animals-1-btn a{font-size: 15px;}
+
+    /* Dental//Css */
+    .title-top p{font-size: 16px;line-height: 26px;}
+
+    /* Vetcare//Team */
+    .top-title h2{line-height: 55px;}
+
+    .top-title p{font-size: 16px;line-height: 28px;}
+
+    /* Footer//Css */
+    .search-btn{display: none;}
+
+    .footer-content-end p{padding: 0px 0px 20px 0px;}
+}
+
+/* 375px//Responsive */
+
+@media only screen and (max-width: 375px){
+
+    /* Header */
+    .header-left h1{font-size: 25px;}
+
+    .headerBtn a#hdr-btn-2{display: none;}
+
+    /* Animals//Section-1 */
+    .animals-1-left h2{font-size: 22px;}
+
+    /* Dental//Css */
+    .title-top h3{font-size: 40px;}
+
+    .title-top p{font-size: 14px;}
+
+    .dental-card h2{font-size: 25px;}
+
+    .dental-card p{font-size: 16px;line-height: 26px;}
+
+    /* Second//Dental Card */
+    .price h4{font-size: 25px;}
+
+    .price h4 span::after{width: 65px;height: 3px;top: 36px;}
+
+    /* Vetcare//Team */
+    .top-title h2{line-height: 50px;}
+
+    .top-title p{font-size: 14px;line-height: 22px;padding: 15px 0px 0px 0px;}
+
+    .card-item figure img{max-width: 330px;width: 100%;}
+
+    .card-item h3{font-size: 20px;}
+
+    .card-item p{font-size: 16px;}
+
+    /* Footer//Css */
+    .footer-content h2{font-size: 30px;}
+
+    ul.list li a{font: 20px;line-height: 30px;}
+}
